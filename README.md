@@ -3,6 +3,8 @@
 A clean and interactive finance dashboard built using React.
 This project focuses on intuitive UI design, structured component architecture, and efficient state management to simulate a real-world financial tracking interface.
 
+<sub>Live demo: https://fintrackui.netlify.app/</sub>
+
 ---
 
 ## Objective
@@ -36,6 +38,24 @@ App
  ├── Role Management (Viewer/Admin)
  └── Global State (Context API)
 ```
+
+---
+
+## Screenshots
+
+### Home Page
+
+![Home Page](HomePage.png)
+
+###
+
+![Admin Action](AdminEntry.png)
+
+###
+
+![Data Filtering](Filtering.png)
+
+---
 
 ---
 
