@@ -9,12 +9,15 @@ export const AppProvider = ({ children }) => {
     return saved ? JSON.parse(saved) : data;
   });
 
-  const [role, setRole] = useState("admin");
+  const [role, setRole] = useState(() => {
+    return localStorage.getItem("role") || "viewer";
+  });
   const [filter, setFilter] = useState("");
 
   useEffect(() => {
     localStorage.setItem("transactions", JSON.stringify(transactions));
-  }, [transactions]);
+    localStorage.setItem("role", role);
+  }, [transactions, role]);
 
   return (
     <AppContext.Provider
