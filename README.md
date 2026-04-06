@@ -47,17 +47,12 @@ App
 
 ![Home Page](HomePage.png)
 
-###
+### Admin Action & Data Filtering
 
-![Admin Action](AdminEntry.png)
-
-###
-
-![Data Filtering](Filtering.png)
-
----
-
----
+<p align="center">
+  <img src="AdminEntry.png" width="45%" />
+  <img src="Filtering.png" width="45%" />
+</p>
 
 ## Features
 
